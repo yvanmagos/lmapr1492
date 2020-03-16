@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 20,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -13,7 +13,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 21,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -22,7 +22,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 22,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -31,7 +31,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 23,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -40,7 +40,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 24,
    "metadata": {},
    "outputs": [
     {
@@ -60,7 +60,7 @@
        "PeriodicSite: Zn (-0.0000, 1.8383, 0.0000) [0.3333, 0.6667, 0.0000]"
       ]
      },
-     "execution_count": 5,
+     "execution_count": 24,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -71,11 +71,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 27,
    "metadata": {},
    "outputs": [],
    "source": [
-    "CifWriter(struct=struc, symprec=1e-5).write_file('ZnO.cif')"
+    "CifWriter(struct=struc, symprec=True).write_file('ZnO2.cif')"
    ]
   },
   {
